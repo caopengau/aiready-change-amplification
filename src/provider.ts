@@ -10,7 +10,7 @@ import { ChangeAmplificationOptions } from './types';
 /**
  * Change Amplification Tool Provider
  */
-export const ChangeAmplificationProvider = createProvider({
+export const CHANGE_AMPLIFICATION_PROVIDER = createProvider({
   id: ToolName.ChangeAmplification,
   alias: ['change-amp', 'change-amplification', 'coupling'],
   version: '0.9.5',
